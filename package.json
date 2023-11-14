@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "precoffee": "npx tsc",
+    "coffee": "node dist/Client.js",
+    "postcoffee": "npx rimraf dist"
+  }
+}
